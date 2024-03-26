@@ -3,7 +3,7 @@
 ##generate a new folder for running Pep-GaMD equilibration
 mkdir -p  gamd-equil
 
-## copy all the needed file for running Pep-GaMD equilibration
+## copy all the needed file for running Pep-GaMD simulations
 cp tleap/complex.prmtop tleap/rec.prmtop tleap/pep.prmtop tleap/comp-now.prmtop tleap/complex.inpcrd tleap/rec.inpcrd tleap/pep.inpcrd tleap/comp-now.inpcrd gamd-equil
 cd gamd-equil
 
@@ -284,7 +284,7 @@ chmod +x run-GaMD-equil.sh
 ./run-GaMD-equil.sh
 cd ../
 
-## GaMD production, will have three replicas in three individula folders
+## GaMD production, will have three replicas in three individula folders: sim1, sim2 and sim3
 mkdir sim1 sim2 sim3
 echo "#!/bin/sh
 #please modify the following environment variables

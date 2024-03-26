@@ -63,7 +63,7 @@ Emax=100.0
 binx=1
 cutoff=500
 echo "xmin xmax for this file"
-python /home/jawang/sh/analysis/amd-2d-reweight/PyReweighting-1D.py -input Phi.dat -disc ${binx} -Xdim $xmin $xmax  -Emax $Emax  -cutoff $cutoff -job amdweight_CE -weight weights.dat
+python PyReweighting-1D.py -input Phi.dat -disc ${binx} -Xdim $xmin $xmax  -Emax $Emax  -cutoff $cutoff -job amdweight_CE -weight weights.dat
 
 echo "parm ../tleap/comp-now.prmtop
 reference ../tleap/comp-now.inpcrd

@@ -3,12 +3,12 @@ The “PepBinding” is a workflow for predicting peptide binding structures, wh
 
 An example that contains the input pdb files for both receptor and peptide obtaeind from HPEPDOCK is included in this repository. 
 
-A run script can be found in pepbinding.sh. To run the test folder, simply copy all the scripts (pepbinding.sh, 01-run-generate-system.sh, 02-run-PepGaMD.sh and 03-cluster.sh) and pdb files (rec.pdb and pep-docked.pdb), and run the following commands:
+A run script can be found in pepbinding.sh. To run the test folder, simply copy all the scripts (pepbinding.sh, 01-run-generate-system.sh, 02-run-PepGaMD.sh, 03-cluster.sh and PyReweighting-1D.py) and pdb files (rec.pdb and pep-docked.pdb), and run the following commands:
 
 sh ./pepbinding.sh rec.pdb pep-docked.pdb
 
 The details can be found at the reference below. 
 
-Reference:
+# Reference:
 Jinan Wang, Kushal Koirala, Hung N. Do, Yinglong Miao. PepBinding: A workflow for predicting peptide binding structures by combining Peptide Docking and Peptide Gaussian Accelerated Molecular Dynamics Simulations (In preparion)
 

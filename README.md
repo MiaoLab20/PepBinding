@@ -1,5 +1,5 @@
 # PepBinding: A workflow for predicting peptide binding structures by combining Peptide Docking and Peptide Gaussian Accelerated Molecular Dynamics Simulations
-The “PepBinding” is a workflow for predicting peptide binding structures, which combines peptide docking, all-atom enhanced sampling simulations using the Peptide Gaussian accelerated Molecular Dynamics (Pep-GaMD) method and structural clustering. PepBinding has been demonstrated on seven distinct model peptides. In peptide docking using HPEPDOCK, the lowest peptide backbone root-mean-square deviations (RMSDs) of their bound conformations relative to X-ray structures ranged from 3.8 Å to 16.0 Å, corresponding to the medium to inaccurate quality models according to the Critical Assessment of PRediction of Interactions (CAPRI) criteria. The Pep-GaMD simulations performed for only 200 ns  significantly improved the docking models, resulting in five medium and two acceptable quality models. Therefore, PepBinding is an efficient workflow for predicting peptide binding structures.
+The “PepBinding” is a workflow for predicting peptide binding structures, which combines peptide docking, all-atom enhanced sampling simulations using the Peptide Gaussian accelerated Molecular Dynamics (Pep-GaMD) method and structural clustering. PepBinding has been demonstrated on seven distinct model peptides. In peptide docking using HPEPDOCK, the peptide backbone root-mean-square deviations (RMSDs) of their bound conformations relative to X-ray structures ranged from 3.8 Å to 16.0 Å, corresponding to the medium to inaccurate quality models according to the Critical Assessment of PRediction of Interactions (CAPRI) criteria. The Pep-GaMD simulations performed for only 200 ns  significantly improved the docking models, resulting in five medium and two acceptable quality models. Therefore, PepBinding is an efficient workflow for predicting peptide binding structures.
 
 An example that contains the input pdb files for both receptor and peptide obtaeind from HPEPDOCK is included in this repository. 
 
@@ -10,5 +10,5 @@ sh ./pepbinding.sh rec.pdb pep-docked.pdb
 The details can be found at the reference below. 
 
 # Reference:
-Jinan Wang, Kushal Koirala, Hung N. Do, Yinglong Miao. PepBinding: A workflow for predicting peptide binding structures by combining Peptide Docking and Peptide Gaussian Accelerated Molecular Dynamics Simulations (In preparion)
+Jinan Wang, Kushal Koirala, Hung N. Do, Yinglong Miao. PepBinding: A workflow for predicting peptide binding structures by combining Peptide Docking and Peptide Gaussian Accelerated Molecular Dynamics Simulations (https://doi.org/10.1021/acs.jpcb.4c02047)
 
